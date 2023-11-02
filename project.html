@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/icons.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/project.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="main">
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <a class="nav__logo" href="index.html"
+              >Freelancer <span class="nav_logo_size">portfolio</span></a
+            >
+            <input id="menuCheckbox" type="checkbox" />
+            <ul class="nav__ul">
+              <li class="nav__li">
+                <a class="nav__a" href="project.html">Projects</a>
+              </li>
+              <li class="nav__li"><a class="nav__a" href="skills.html">Skills</a></li>
+              <li class="nav__li"><a class="nav__a" href="contacts.html">Contacts</a></li>
+            </ul>
+            <label for="menuCheckbox" class="menu-burger">
+              <span class="material-icons icon-menu"> menu </span>
+            </label>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </section>
+    <section class="project-section">
+      <div class="container">
+        <div class="project">
+          <h2 class="project__name">Video service</h2>
+          <div class="project__image">
+            <img src="img/project/video.png" alt="" />
+          </div>
+          <div class="project__skills">Skills: React, Node.js, MongoDB</div>
+          <a class="btn project__btn effect-ellipse-grow" href="https://github.com/Hellstaff8822?tab=repositories">
+            <img src="img/project/gitHubbtn.svg" alt="" />GitHub repo</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-section">
+      <footer class="footer">
+        <div class="container footer_container">
+          <div class="footer__media">
+            <div class="footer__social">
+              <a href="https://www.twitch.tv/"><i class="fa-brands fa-twitch"></i></a>
+              <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="footer__copyright">© 2022 frontend-dev.com</div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
