@@ -104,10 +104,10 @@ body {
   line-height: 140%;
 }
 
-.about_title_active {
+.about__title_active {
   color: #5c62ec;
 }
-.about_title_size {
+.about__title_size {
   font-family: DM Sans;
   font-size: 40px;
   font-weight: 700;
